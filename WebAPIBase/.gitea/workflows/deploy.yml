@@ -1,0 +1,46 @@
+name: Deploy WebAPI
+on:
+  push:
+    branches: [ main ] # Dispara sempre que houver push na branch main
+
+jobs:
+  deploy-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get port number
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          
+          # Extrai apenas os números da string usando sed
+          NUMBERS=$(echo "$REPO_NAME" | sed 's/[^0-9]//g')
+          PORT="50${NUMBERS}"
+          
+          echo "Porta gerada: $PORT"
+          
+          # CORREÇÃO: Salvando no GITHUB_ENV para que TODOS os próximos steps vejam
+          echo "NUMBERS=${NUMBERS}" >> $GITHUB_ENV
+          echo "PORT=${PORT}" >> $GITHUB_ENV
+
+      - name: 1. Baixar o código atualizado
+        uses: actions/checkout@v3
+
+      - name: 2. Parar e remover o container antigo (se já existir)
+        run: |
+          # Usando a variável global para parar o container correto
+          docker stop "api-competidor-container${{ env.NUMBERS }}" || true
+          docker rm "api-competidor-container${{ env.NUMBERS }}" || true
+
+      - name: 3. Construir a nova imagem usando o Dockerfile
+        run: |
+          # Repare na sintaxe ${{ env.NUMBERS }} para ler a variável global
+          docker build -t "webapi-imagem-local${{ env.NUMBERS }}" .
+
+      - name: 4. Rodar o novo container exposto na rede local
+        run: |
+          # Repare na sintaxe ${{ env.PORT }} e ${{ env.NUMBERS }}
+          docker run -d \
+            --name "api-competidor-container${{ env.NUMBERS }}" \
+            -p "${{ env.PORT }}:8080" \
+            --network simuladosuzano_gitea \
+            --restart always \
+            "webapi-imagem-local${{ env.NUMBERS }}"

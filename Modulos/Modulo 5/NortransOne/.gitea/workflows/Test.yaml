@@ -1,0 +1,71 @@
+name: Corretor Automatico
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  judge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codigo do competidor
+        uses: actions/checkout@v4
+        with:
+          path: solucao_competidor
+
+      - name: Buscar projeto de testes (repo privado)
+        env:
+          JUDGE_TOKEN: ${{ secrets.JUDGE_TOKEN }}
+        run: |
+          echo "Tamanho do token: ${#JUDGE_TOKEN}"
+          curl -s -o /dev/null -w "%{http_code}\n" -u "oauth2:$JUDGE_TOKEN" http://gitea:3000/Deliveries/Modulo5_judge.git/info/refs?service=git-upload-pack
+          git clone --quiet http://oauth2:${JUDGE_TOKEN}@gitea:3000/Deliveries/Modulo5_judge.git juiz          
+
+      - name: Substituir implementacao de referencia pela do competidor
+        run: |
+          rm -rf juiz/Services
+          cp -r solucao_competidor/Services juiz/Services          
+
+      - name: Setup .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Configurar endpoint do Judge
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"   # remove "owner/" -> fica só o nome do repo
+          COMPETITOR="${REPO_NAME#*_}"          # remove tudo até o primeiro "_"
+          echo "Competidor: $COMPETITOR"
+
+          cat > juiz/Tests/appsettings.json <<EOF
+          {
+            "ResultsApi": {
+              "Endpoint": "http://judge:8080/api/test-results",
+              "ApiKey": "",
+              "TimeoutSeconds": 11,
+              "FailTestWhenUnavailable": false,
+              "Competitor": "$COMPETITOR"
+            }
+          }
+          EOF
+
+      - name: Verificar appsettings gerado
+        run: cat juiz/Tests/appsettings.json 
+          
+      
+      - name: Rodar testes
+        run: |
+          rm -rf juiz/Tests/bin juiz/Tests/obj
+          dotnet build juiz/Tests/Tests.csproj -c Debug
+
+          OUT_DIR=$(dirname "$(find juiz/Tests/bin -name 'Tests.dll' | head -n1)")
+          cp juiz/Tests/appsettings.json "$OUT_DIR/appsettings.json"
+
+          echo "----- appsettings.json que sera lido em runtime -----"
+          cat "$OUT_DIR/appsettings.json"
+
+          dotnet test juiz/Tests/Tests.csproj --no-build --logger "trx;LogFileName=resultado.trx" > resultado.log 2>&1 || true 
+          
+      - name: Limpar logs do workspace
+        if: always()
+        run: rm -rf juiz solucao_competidor resultado.log resultado.trx

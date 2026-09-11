@@ -1,0 +1,11 @@
+﻿--- LISTA DE ACESSO DOS COMPETIDORES ---
+Usuário: Miguel | Senha: EGqRCazT | Email: miguel@competidor.com | Nome completo: Miguel Mourão Picinin
+Usuário: Jhonatan | Senha: XxRfAfLT | Email: jhonatan@competidor.com | Nome completo: Jhonatan Augusto Barreto da Costa
+Usuário: Fernanda | Senha: 4Byc4q72 | Email: fernanda@competidor.com | Nome completo: Fernanda Yuina Hirano da Silva
+Usuário: Vinicius | Senha: qEEqtukj | Email: vinicius@competidor.com | Nome completo: Vinicius de Miranda Nascimento
+Usuário: Nathalya | Senha: G83J6DPp | Email: nathalya@competidor.com | Nome completo: Nathalya Silva Monteiro
+Usuário: Gabriel | Senha: A6S6XVbB | Email: gabriel@competidor.com | Nome completo: Gabriel de Almeida dos Santos Silva
+Usuário: Daniel | Senha: tvqvpHyH | Email: daniel@competidor.com | Nome completo: Daniel Andrade Santos
+Usuário: Bruno | Senha: 5JHHJ5aE | Email: bruno@competidor.com | Nome completo: Bruno Ataide Lima Dourado
+Usuário: Thiago | Senha: W3j6BXQc | Email: thiago@competidor.com | Nome completo: Thiago Mazzi
+Usuário: Nikollas | Senha: 2zT3!VZa | Email: nikollas@competidor.com | Nome completo: Nikollas Dheyvis de Paula Silva

@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\services\\containercodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|solutionrelative:services\\containercodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1111111-0000-0000-0000-000000000001}|Contracts\\Contracts.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\contracts\\tradedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1111111-0000-0000-0000-000000000001}|Contracts\\Contracts.csproj|solutionrelative:contracts\\tradedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1111111-0000-0000-0000-000000000001}|Contracts\\Contracts.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\contracts\\tradecodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1111111-0000-0000-0000-000000000001}|Contracts\\Contracts.csproj|solutionrelative:contracts\\tradecodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\tests\\resultreportingtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\resultreportingtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\tests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\lima\\desktop\\simuladosuzano\\judges\\session2judge\\tests\\tradecodetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\tradecodetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\InMemoryTestResultStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Controllers\\TestResultsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TradeData.cs",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Contracts\\TradeData.cs",
+              "RelativeDocumentMoniker": "Contracts\\TradeData.cs",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Contracts\\TradeData.cs",
+              "RelativeToolTip": "Contracts\\TradeData.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIA6wFcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T19:56:25.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tests",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-10T19:56:00.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TradeCodes.cs",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Contracts\\TradeCodes.cs",
+              "RelativeDocumentMoniker": "Contracts\\TradeCodes.cs",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Contracts\\TradeCodes.cs",
+              "RelativeToolTip": "Contracts\\TradeCodes.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T19:55:45.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultReportingTestBase.cs",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\ResultReportingTestBase.cs",
+              "RelativeDocumentMoniker": "Tests\\ResultReportingTestBase.cs",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\ResultReportingTestBase.cs",
+              "RelativeToolTip": "Tests\\ResultReportingTestBase.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwGkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T20:03:28.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContainerCodeService.cs",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Services\\ContainerCodeService.cs",
+              "RelativeDocumentMoniker": "Services\\ContainerCodeService.cs",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Services\\ContainerCodeService.cs",
+              "RelativeToolTip": "Services\\ContainerCodeService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvyEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T19:51:05.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Program.cs",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T19:24:33.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\appsettings.json",
+              "RelativeDocumentMoniker": "Tests\\appsettings.json",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\appsettings.json",
+              "RelativeToolTip": "Tests\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T18:52:17.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TradeCodeTests.cs",
+              "DocumentMoniker": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\TradeCodeTests.cs",
+              "RelativeDocumentMoniker": "Tests\\TradeCodeTests.cs",
+              "ToolTip": "C:\\Users\\lima\\Desktop\\SimuladoSuzano\\judges\\Session2Judge\\Tests\\TradeCodeTests.cs",
+              "RelativeToolTip": "Tests\\TradeCodeTests.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T20:23:59.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InMemoryTestResultStore.cs",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\InMemoryTestResultStore.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\InMemoryTestResultStore.cs",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\InMemoryTestResultStore.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\InMemoryTestResultStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T19:24:30.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Dockerfile",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Dockerfile",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-24T18:54:17.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Controllers\\TestResultsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Controllers\\TestResultsController.cs",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Controllers\\TestResultsController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\competidor\\Desktop\\SimuladoCostaRica\\NortransOne\\ResultsApi\\Controllers\\TestResultsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T18:52:34.354Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+services:
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    restart: unless-stopped
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - GITEA__database__DB_TYPE=sqlite3
+      - GITEA__server__DOMAIN=${GITEA_DOMAIN:-localhost}
+      - GITEA__server__SSH_DOMAIN=${GITEA_DOMAIN:-localhost}
+      - GITEA__server__ROOT_URL=http://${GITEA_DOMAIN:-localhost}:${GITEA_HTTP_PORT:-3000}/
+      - GITEA__actions__ENABLED=true
+    volumes:
+      - ./gitea-data:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "${GITEA_HTTP_PORT:-3000}:3000"
+      - "${GITEA_SSH_PORT:-2222}:22"
+    networks:
+      - gitea
+
+  runner:
+    image: gitea/act_runner:latest
+    container_name: gitea_runner
+    restart: unless-stopped
+    depends_on:
+      - gitea
+    environment:
+      - GITEA_INSTANCE_URL=http://gitea:3000
+      - GITEA_RUNNER_REGISTRATION_TOKEN=${GITEA_RUNNER_TOKEN}
+      - GITEA_RUNNER_NAME=${GITEA_RUNNER_NAME:-local-runner}
+      - CONFIG_FILE=/runner-config.yaml
+    volumes:
+      - ./runner-config.yaml:/runner-config.yaml
+      - ./data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - gitea
+
+  judge-api:
+    build:
+      context: ./judges
+      dockerfile: ResultsApi/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+    image: resultsapi:dev
+    container_name: judge
+    ports:
+      - "8080:8080"
+    networks:
+      - gitea
+
+
+  web-app:
+    build:
+      context: ./judges/Web
+    container_name: web-judge
+    ports:
+      - "8081:80"
+    networks:
+      - gitea
+
+  judge4-api:
+    build:
+      context: ./judges/Session4JudgeAPI
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+    image: judge4api:dev
+    container_name: judge4-api
+    ports:
+      - "8090:8080"
+    networks:
+      - gitea
+
+  web-app4:
+    build:
+      context: ./judges/WebSession4
+    container_name: web-judge4
+    ports:
+      - "8082:80"
+    networks:
+      - gitea
+
+networks:
+  gitea:
+    driver: bridge

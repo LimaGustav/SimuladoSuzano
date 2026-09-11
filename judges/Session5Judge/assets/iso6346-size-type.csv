@@ -1,0 +1,17 @@
+code,lengthFt,height,typeGroup,typeDescription,refrigerated
+22G1,20,"8'6""",General purpose,General purpose container without ventilation,false
+22G0,20,"8'6""",General purpose,General purpose container with passive vents,false
+22R1,20,"8'6""",Refrigerated,Integral reefer container,true
+22T1,20,"8'6""",Tank,Tank container for non-dangerous liquids,false
+22P1,20,"8'6""",Platform,Flat rack with fixed ends,false
+22U1,20,"8'6""",Open top,Open top container with removable top members,false
+25G1,20,"9'6""",General purpose,High cube general purpose container,false
+42G1,40,"8'6""",General purpose,General purpose container without ventilation,false
+45G1,40,"9'6""",General purpose,High cube general purpose container,false
+45R1,40,"9'6""",Refrigerated,High cube integral reefer container,true
+42R1,40,"8'6""",Refrigerated,Integral reefer container,true
+42P1,40,"8'6""",Platform,Flat rack with fixed ends,false
+42U1,40,"8'6""",Open top,Open top container with removable top members,false
+42T1,40,"8'6""",Tank,Tank container for non-dangerous liquids,false
+L5G1,45,"9'6""",General purpose,High cube general purpose container,false
+L2G1,45,"8'6""",General purpose,General purpose container,false
