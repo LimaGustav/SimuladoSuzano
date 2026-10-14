@@ -1,0 +1,276 @@
+[
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestBranches",
+    "RelativePath": "test/branches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestBranchById",
+    "RelativePath": "test/branches/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestConsignees",
+    "RelativePath": "test/consignees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestCreateConsignee",
+    "RelativePath": "test/consignees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestConsigneeById",
+    "RelativePath": "test/consignees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestConsigneeSummary",
+    "RelativePath": "test/consignees/{id}/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestCreateEvent",
+    "RelativePath": "test/containers/{id}/events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestGetEvents",
+    "RelativePath": "test/containers/{id}/events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestHealth",
+    "RelativePath": "test/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestDwell",
+    "RelativePath": "test/reports/dwell",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestMonthlyVolume",
+    "RelativePath": "test/reports/monthly-volume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestTopConsignees",
+    "RelativePath": "test/reports/top-consignees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestTransitTimes",
+    "RelativePath": "test/reports/transit-times",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "Results",
+    "RelativePath": "test/results",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "ClearResults",
+    "RelativePath": "test/results",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestShipments",
+    "RelativePath": "test/shipments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestCreateShipment",
+    "RelativePath": "test/shipments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestShipmentById",
+    "RelativePath": "test/shipments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestGetContainers",
+    "RelativePath": "test/shipments/{id}/containers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestCreateContainer",
+    "RelativePath": "test/shipments/{id}/containers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestPatchStatus",
+    "RelativePath": "test/shipments/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Session4JudgeAPI.Controllers.TestController",
+    "Method": "TestSearch",
+    "RelativePath": "test/shipments/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

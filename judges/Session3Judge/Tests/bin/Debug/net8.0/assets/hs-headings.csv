@@ -1,0 +1,54 @@
+code,level,description
+0901,heading,"Coffee, whether or not roasted or decaffeinated"
+090111,subheading,"Coffee, not roasted, not decaffeinated"
+090121,subheading,"Coffee, roasted, not decaffeinated"
+1806,heading,Chocolate and other food preparations containing cocoa
+180632,subheading,"Chocolate in blocks, slabs or bars, not filled"
+2202,heading,"Waters, including mineral and aerated, with added sugar"
+220210,subheading,Waters with added sugar or other sweetening matter
+2208,heading,"Undenatured ethyl alcohol; spirits, liqueurs"
+220830,subheading,Whiskies
+2402,heading,"Cigars, cheroots, cigarillos and cigarettes"
+240220,subheading,Cigarettes containing tobacco
+3004,heading,"Medicaments, put up in measured doses or for retail sale"
+300490,subheading,Other medicaments for therapeutic or prophylactic uses
+3208,heading,Paints and varnishes based on synthetic polymers
+320810,subheading,Paints based on polyesters
+3926,heading,Other articles of plastics
+392690,subheading,"Other articles of plastics, not elsewhere specified"
+392610,subheading,Office or school supplies of plastics
+4011,heading,"New pneumatic tyres, of rubber"
+401110,subheading,New pneumatic tyres of a kind used on motor cars
+4407,heading,"Wood sawn or chipped lengthwise, thickness exceeding 6 mm"
+440711,subheading,"Coniferous wood, sawn, of pine"
+4818,heading,"Toilet paper, handkerchiefs, tablecloths of paper"
+481810,subheading,Toilet paper
+6109,heading,"T-shirts, singlets and other vests, knitted or crocheted"
+610910,subheading,"T-shirts of cotton, knitted or crocheted"
+6403,heading,Footwear with outer soles of rubber and uppers of leather
+640399,subheading,Other footwear with outer soles of rubber or plastics
+6907,heading,"Ceramic flags and paving, hearth or wall tiles"
+690721,subheading,Ceramic tiles with a water absorption not exceeding 0.5 %
+7217,heading,Wire of iron or non-alloy steel
+721710,subheading,"Wire of iron or non-alloy steel, not plated or coated"
+7318,heading,"Screws, bolts, nuts, washers of iron or steel"
+731815,subheading,"Other screws and bolts, of iron or steel"
+8201,heading,"Hand tools for agriculture, horticulture or forestry"
+820140,subheading,"Axes, bill hooks and similar hewing tools"
+8413,heading,Pumps for liquids; liquid elevators
+841360,subheading,Other rotary positive displacement pumps
+8471,heading,Automatic data processing machines and units thereof
+847130,subheading,"Portable automatic data processing machines, under 10 kg"
+847150,subheading,Processing units other than those of subheading 8471.41
+8504,heading,"Electrical transformers, static converters and inductors"
+850440,subheading,Static converters
+8517,heading,"Telephone sets, including smartphones; other apparatus"
+851713,subheading,Smartphones
+8544,heading,"Insulated wire, cable and other insulated electric conductors"
+854442,subheading,Other electric conductors fitted with connectors
+8708,heading,Parts and accessories of motor vehicles
+870830,subheading,Brakes and servo-brakes; parts thereof
+9403,heading,Other furniture and parts thereof
+940330,subheading,Wooden furniture of a kind used in offices
+9405,heading,Luminaires and lighting fittings
+940540,subheading,Other electric luminaires and lighting fittings

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\competidor\\desktop\\simuladocostarica\\judges\\session3judge\\tests\\chargeableweightcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\chargeableweightcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\competidor\\desktop\\simuladocostarica\\judges\\session3judge\\tests\\resultreportingtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\resultreportingtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|c:\\users\\competidor\\desktop\\simuladocostarica\\judges\\session3judge\\tests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3333333-0000-0000-0000-000000000003}|Tests\\Tests.csproj|solutionrelative:tests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|c:\\users\\competidor\\desktop\\simuladocostarica\\judges\\session3judge\\services\\chargeableweightcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|solutionrelative:services\\chargeableweightcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|c:\\users\\competidor\\desktop\\simuladocostarica\\judges\\session3judge\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChargeableWeightCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Tests\\ChargeableWeightCalculatorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ChargeableWeightCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Tests\\ChargeableWeightCalculatorTests.cs",
+              "RelativeToolTip": "Tests\\ChargeableWeightCalculatorTests.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T13:32:59.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultReportingTestBase.cs",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Tests\\ResultReportingTestBase.cs",
+              "RelativeDocumentMoniker": "Tests\\ResultReportingTestBase.cs",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Tests\\ResultReportingTestBase.cs",
+              "RelativeToolTip": "Tests\\ResultReportingTestBase.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvxQAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T12:22:36.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Tests\\appsettings.json",
+              "RelativeDocumentMoniker": "Tests\\appsettings.json",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Tests\\appsettings.json",
+              "RelativeToolTip": "Tests\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-26T12:22:33.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChargeableWeightCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Services\\ChargeableWeightCalculator.cs",
+              "RelativeDocumentMoniker": "Services\\ChargeableWeightCalculator.cs",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Services\\ChargeableWeightCalculator.cs",
+              "RelativeToolTip": "Services\\ChargeableWeightCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T12:22:04.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\competidor\\Desktop\\SimuladoCostaRica\\judges\\Session3Judge\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-25T20:10:04.73Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

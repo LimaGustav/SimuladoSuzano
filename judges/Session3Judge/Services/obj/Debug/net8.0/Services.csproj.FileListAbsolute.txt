@@ -1,0 +1,16 @@
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\bin\Debug\net8.0\Nortrans.Services.deps.json
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\bin\Debug\net8.0\Nortrans.Services.dll
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\bin\Debug\net8.0\Nortrans.Services.pdb
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\bin\Debug\net8.0\Nortrans.Contracts.dll
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\bin\Debug\net8.0\Nortrans.Contracts.pdb
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.sourcelink.json
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Nortrans.Services.dll
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\refint\Nortrans.Services.dll
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\Nortrans.Services.pdb
+C:\Users\competidor\Desktop\SimuladoCostaRica\judges\Session3Judge\Services\obj\Debug\net8.0\ref\Nortrans.Services.dll

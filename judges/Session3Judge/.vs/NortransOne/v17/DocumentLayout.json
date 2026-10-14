@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive\\OneDrive - Instituto Nacional de Aprendizaje\\00 2026\\00 - Carpeta de Claude\\Simulacro Competicion Skill09 - Nortrans Cargo \u0026 Customs\\01 Competitor\\Module 3 - Duty and Charges Engine\\NortransOne\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|d:\\onedrive\\onedrive - instituto nacional de aprendizaje\\00 2026\\00 - carpeta de claude\\simulacro competicion skill09 - nortrans cargo \u0026 customs\\01 competitor\\module 3 - duty and charges engine\\nortransone\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2222222-0000-0000-0000-000000000002}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Services",
+              "DocumentMoniker": "D:\\OneDrive\\OneDrive - Instituto Nacional de Aprendizaje\\00 2026\\00 - Carpeta de Claude\\Simulacro Competicion Skill09 - Nortrans Cargo \u0026 Customs\\01 Competitor\\Module 3 - Duty and Charges Engine\\NortransOne\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\OneDrive\\OneDrive - Instituto Nacional de Aprendizaje\\00 2026\\00 - Carpeta de Claude\\Simulacro Competicion Skill09 - Nortrans Cargo \u0026 Customs\\01 Competitor\\Module 3 - Duty and Charges Engine\\NortransOne\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-18T03:46:56.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
